@@ -1,0 +1,45 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "818f326d-47c1-4001-8a70-3acef90e4d64",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "aad0560a-3611-40d0-8a06-2cd8f943a3da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7689d889-e74f-43e3-a7ce-8682ad53806e",
+                    "path": "<OculusTouchController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4630c54-eb8f-408d-9590-1dcd65159991",
+                    "path": "<XRController>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
